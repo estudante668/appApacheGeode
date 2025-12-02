@@ -19,8 +19,8 @@ public class Pessoa {
 
   private String firstName;
   private String lastName;
+  private Boolean valor;
 
-  @PersistenceConstructor
   public Pessoa() {
     this.id = COUNTER.incrementAndGet();
   }
