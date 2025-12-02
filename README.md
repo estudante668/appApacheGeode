@@ -20,14 +20,3 @@ Este projeto demonstra como criar uma aplicação **Spring Boot** que acessa dad
 
 ---
 
-## 📦 Estrutura básica
-
-### Entidade `Pessoa`
-```java
-@Entity
-public class Pessoa {
-    @Id @GeneratedValue
-    private Long id;
-    private String firstName;
-    private String lastName;
-}
